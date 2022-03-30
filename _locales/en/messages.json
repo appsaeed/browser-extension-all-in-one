@@ -1,0 +1,225 @@
+{
+   "add_custom_filter": {
+      "message": "Adding custom filter"
+   },
+   "add_exclusion": {
+      "message": "Add exclusion"
+   },
+   "add_own_filter": {
+      "message": "Add own filter"
+   },
+   "add_to_whitelist": {
+      "message": "Add to whitelist"
+   },
+   "adlock_desc": {
+      "description": "Displayed on Thank you page",
+      "message": "AdLock extension is a great deal to block ads in Google Chrome. But scammers can compromise your computer through the ads in the apps, games, and other browsers. If you need extended protection, try system-wide AdLock for Windows."
+   },
+   "adlock_turn_off": {
+      "description": "TRANSLATE. Should be all lowercased because we explicitly convert to uppercase by JS code",
+      "message": "turn off"
+   },
+   "adlock_turn_on": {
+      "description": "TRANSLATE. Should be all lowercased because we explicitly convert to uppercase by JS code",
+      "message": "turn on"
+   },
+   "app_desc": {
+      "message": "This ad blocker blocks banners, pop-ups and all kinds of ads on websites, including video ads on Youtube, Crunchyroll, etc."
+   },
+   "blocked_all_time": {
+      "message": "Blocked all time"
+   },
+   "blocked_rule": {
+      "message": "Blocked with rule: "
+   },
+   "blocked_this_page": {
+      "message": "Blocked on this page"
+   },
+   "check_network": {
+      "message": "Check your network connection and try again"
+   },
+   "check_updates": {
+      "message": "check updates"
+   },
+   "check_url": {
+      "message": "Check the URL and repeat!"
+   },
+   "checking_filter_updates": {
+      "description": "TRANSLATE",
+      "message": "Checking filter updates"
+   },
+   "click_check_updates": {
+      "message": "Click Check updates to download the rules"
+   },
+   "clipboard": {
+      "message": "Copied to clipboard"
+   },
+   "custom_filter_successfully_added": {
+      "message": "'$filter_name$' successfully added!",
+      "placeholders": {
+         "filter_name": {
+            "content": "$1"
+         }
+      }
+   },
+   "enter_whitelist": {
+      "message": "Enter whitelist URL or domain"
+   },
+   "exclude_btn": {
+      "message": "exclude"
+   },
+   "fetch_rules": {
+      "message": "Could not fetch rules by the specified URL."
+   },
+   "filter_desc_1001": {
+      "message": "Set of rules for Runet (Russian-speaking segment of internet)"
+   },
+   "filter_desc_1002": {
+      "message": "Set of rules for many English websites"
+   },
+   "filter_desc_1003": {
+      "message": "Rules that suppress attempts of websites to track your activity"
+   },
+   "filter_desc_1004": {
+      "message": "Rules that protect your browsing from being tracked by social networks"
+   },
+   "filter_desc_1005": {
+      "message": "Rules for blocking ADs on most Spanish and Portuguese websites"
+   },
+   "filter_desc_1006": {
+      "description": "TRANSLATE",
+      "message": "Rules for blocking ADs on most German websites"
+   },
+   "filter_desc_1008": {
+      "description": "TRANSLATE",
+      "message": "Rules for blocking ADs on most Dutch websites"
+   },
+   "filter_desc_1105": {
+      "message": "Rules for blocking ADs on most Czech and Slovak websites"
+   },
+   "filter_desc_1113": {
+      "description": "TRANSLATE",
+      "message": "Rules for blocking ADs on most French websites"
+   },
+   "filter_desc_1216": {
+      "message": "Rules for blocking ADs on most Polish websites"
+   },
+   "filter_failed": {
+      "message": "Filter update failed!"
+   },
+   "filter_list": {
+      "message": "Filters list"
+   },
+   "filter_name": {
+      "message": "Filter name"
+   },
+   "filter_name_1001": {
+      "message": "Russian filter"
+   },
+   "filter_name_1002": {
+      "message": "English filter"
+   },
+   "filter_name_1003": {
+      "message": "Spyware filter"
+   },
+   "filter_name_1004": {
+      "message": "Social media filter"
+   },
+   "filter_name_1005": {
+      "message": "Spanish/Portuguese filter"
+   },
+   "filter_name_1006": {
+      "description": "TRANSLATE",
+      "message": "German filter"
+   },
+   "filter_name_1008": {
+      "description": "TRANSLATE",
+      "message": "Dutch filter"
+   },
+   "filter_name_1105": {
+      "message": "EasyList Czech and Slovak"
+   },
+   "filter_name_1113": {
+      "description": "TRANSLATE",
+      "message": "French filter"
+   },
+   "filter_name_1216": {
+      "message": "Polish filter"
+   },
+   "filter_source": {
+      "message": "Filter source"
+   },
+   "filters_updated": {
+      "message": "Filters were updated"
+   },
+   "get_adlock": {
+      "message": "Get adlock for windows"
+   },
+   "get_it": {
+      "message": "Get it"
+   },
+   "ignore_btn": {
+      "message": "ignore"
+   },
+   "last_update": {
+      "message": "Last update"
+   },
+   "malicious": {
+      "message": "Malicious website blocked: "
+   },
+   "maximum_protection": {
+      "description": "The \"maximum\" word should be emphasized",
+      "message": "\u003Cstrong>Maximum\u003C/strong> protection for your devices"
+   },
+   "never": {
+      "description": "TRANSLATE",
+      "message": "Never"
+   },
+   "never_loaded": {
+      "message": "was never loaded!"
+   },
+   "no_filters_update": {
+      "message": "No filters for updating!"
+   },
+   "one_moment": {
+      "message": "One moment"
+   },
+   "option_filters": {
+      "message": "Filters"
+   },
+   "option_whitelist": {
+      "message": "Whitelist"
+   },
+   "page_hard_whitelisted": {
+      "description": "TRANSLATE",
+      "message": "Domain in whitelist"
+   },
+   "premium": {
+      "message": "Premium"
+   },
+   "rate_us": {
+      "message": "rate us"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "show_ads_on_this_page": {
+      "message": "Show ads on this page"
+   },
+   "success": {
+      "message": "Success!"
+   },
+   "thank_you": {
+      "message": "Thank you!"
+   },
+   "user_whitelist": {
+      "message": "User whitelist"
+   },
+   "we_recommend": {
+      "description": "Displayed on Thank you page",
+      "message": "We recommend total protection!"
+   },
+   "you_are_cool": {
+      "message": "You're cool, too! Stay the way you are."
+   }
+}

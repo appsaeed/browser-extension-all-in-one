@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Appsaeed all in one</title>
+    <link rel="stylesheet" href="css/options.css" />
+  </head>
+  <body>
+    <div class="filters-update">
+      <div class="load-info-wrap">
+        <img src="../img/filters-arr.svg" alt="" id="load-filters-arrows" />
+        <p id="count-checked-filters">
+          <span id="n-filters-checked"></span> of
+          <span id="n-filters-checking"></span>
+        </p>
+        <p id="status-load-filters" data-i18n="checking_filter_updates"></p>
+      </div>
+    </div>
+    <header>
+      <div class="header-wrap">
+        <div class="logo-main">
+          <img src="./img/icon-128.png" alt="" srcset="" />
+        </div>
+        <nav>
+          <ul class="opts-header-nav">
+            <li
+              class="nav-item"
+              data-id="filters"
+              data-i18n="option_filters"
+            ></li>
+            <li
+              class="nav-item"
+              data-id="whitelist"
+              data-i18n="option_whitelist"
+            ></li>
+          </ul>
+        </nav>
+        <a href="" class="rate-btn" data-i18n="rate_us"></a>
+      </div>
+    </header>
+
+    <section data-target="filters">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="filter_list"></h2>
+        <button
+          class="update-btn load-arrows"
+          data-i18n="check_updates"
+        ></button>
+      </div>
+      <div class="filter-list-wrap">
+        <ol></ol>
+      </div>
+      <div class="filter-button-wrap">
+        <button class="show-filter-form" data-i18n="add_own_filter"></button>
+      </div>
+      <div class="filter-form" data-target="add">
+        <div class="filter-form-add">
+          <div class="filter-form-close-x"></div>
+          <h3 data-i18n="add_custom_filter"></h3>
+          <div class="filter-form-group">
+            <label for="filter-name" data-i18n="filter_name"></label>
+            <input
+              type="text"
+              placeholder="My own filter"
+              name="name"
+              class="filter-form-input"
+              id="filter-name"
+            />
+          </div>
+          <div class="filter-form-group">
+            <label for="filter-url" data-i18n="filter_source"></label>
+            <input
+              type="text"
+              placeholder="https://wdprogram.com/"
+              name="url"
+              class="filter-form-input"
+              id="filter-url"
+            />
+          </div>
+          <div class="create-filter-btn" data-i18n="add_own_filter"></div>
+        </div>
+        <div class="filter-form-waiting">
+          <div>
+            <img
+              src="../img/hourglass.svg"
+              alt=""
+              class="filter-form-waiting-glass"
+            />
+            <p class="filter-form-waiting-label" data-i18n="one_moment"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-target="whitelist">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="user_whitelist"></h2>
+        <div class="filter-whitelist-wrap">
+          <input type="text" class="filter-whitelist" />
+          <span class="focus-border"></span>
+        </div>
+      </div>
+      <div class="whitelist-wrap">
+        <ul></ul>
+      </div>
+      <div class="whitelist-btn-wrap">
+        <button class="exc-open-form-btn" data-i18n="add_exclusion"></button>
+      </div>
+      <div class="whitelist-form-wrap">
+        <div class="exc-form">
+          <h4 class="exc-form-name" data-i18n="enter_whitelist"></h4>
+          <div class="exc-form-box">
+            <div class="exc-close-form-btn"></div>
+            <input
+              type="text"
+              placeholder="https://wdprogram.com/"
+              class="exc-url"
+            />
+            <button class="exc-add-btn" data-i18n="add_to_whitelist"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blocked-section">
+      <div class="blocked-wrap">
+        <div class="blocked-block">
+          <img src="./img/block.svg" alt="" class="blocked-img" />
+          <h2 class="blocked-warn-text" data-i18n="malicious"></h2>
+          <h4 id="url"></h4>
+          <p class="block-text">
+            <span data-i18n="blocked_rule"></span>
+            <span id="blocked-rule"></span>
+          </p>
+          <div class="btns-block-wrap">
+            <button class="ignore-danger">
+              <p data-i18n="ignore_btn"></p>
+            </button>
+            <button class="exclude-danger">
+              <p data-i18n="exclude_btn"></p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="notifications-wrap"></div>
+    <footer></footer>
+    <script src="js/options.js"></script>
+  </body>
+</html>

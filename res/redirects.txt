@@ -1,0 +1,223 @@
+[
+	{
+		"title": "1x1-transparent.gif",
+		"description": "**Example**\n```\n||example.org^$image,redirect=1x1-transparent.gif\n```",
+		"aliases": [
+			"1x1-transparent-gif"
+		],
+		"comment": "http://probablyprogramming.com/2009/03/15/the-tiniest-gif-ever",
+		"contentType": "image/gif;base64",
+		"content": "R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+	},
+	{
+		"title": "2x2-transparent.png",
+		"description": "**Example**\n```\n||example.org^$image,redirect=2x2-transparent.png\n```",
+		"aliases": [
+			"2x2-transparent-png"
+		],
+		"contentType": "image/png;base64",
+		"content": "iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAC0lEQVQI12NgQAcAABIAAe+JVKQAAAAA SUVORK5CYII=\n"
+	},
+	{
+		"title": "3x2-transparent.png",
+		"description": "**Example**\n```\n||example.org^$image,redirect=3x2-transparent.png\n```",
+		"aliases": [
+			"3x2-transparent-png"
+		],
+		"contentType": "image/png;base64",
+		"content": "iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAC0lEQVQI12NgwAUAABoAASRETuUAAAAA SUVORK5CYII=\n"
+	},
+	{
+		"title": "32x32-transparent.png",
+		"description": "**Example**\n```\n||example.org^$image,redirect=32x32-transparent.png\n```",
+		"aliases": [
+			"32x32-transparent-png"
+		],
+		"contentType": "image/png;base64",
+		"content": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGklEQVRYw+3BAQEAAACCIP+vbkhAAQAA AO8GECAAAZf3V9cAAAAASUVORK5CYII=\n"
+	},
+	{
+		"title": "noopframe",
+		"description": "**Example**\n```\n||example.com^$subdocument,redirect=noopframe,domain=example.org\n```",
+		"aliases": [
+			"blank-html"
+		],
+		"contentType": "text/html",
+		"content": "<!DOCTYPE html>\n<html>\n    <head><title></title></head>\n    <body></body>\n</html>"
+	},
+	{
+		"title": "noopcss",
+		"description": "**Example**\n```\n||example.org^$stylesheet,redirect=noopcss\n```",
+		"aliases": [
+			"blank-css"
+		],
+		"contentType": "text/css",
+		"content": ""
+	},
+	{
+		"title": "noopjs",
+		"description": "**Example**\n```\n||example.org^$script,redirect=noopjs\n```",
+		"aliases": [
+			"blank-js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function() {})()"
+	},
+	{
+		"title": "nooptext",
+		"description": "**Example**\n```\n||example.org^$xmlhttprequest,redirect=nooptext\n```",
+		"aliases": [
+			"blank-text"
+		],
+		"contentType": "text/plain",
+		"content": ""
+	},
+	{
+		"title": "noopvast-2.0",
+		"description": "Redirects request to an empty VAST response.\n**Example**\n```\n||example.org^$xmlhttprequest,redirect=noopvast-2.0\n```",
+		"contentType": "text/xml",
+		"content": "<VAST version=\"2.0\"></VAST>"
+	},
+	{
+		"title": "noopvast-3.0",
+		"description": "Redirects request to an empty VAST response.\n**Example**\n```\n||example.org^$xmlhttprequest,redirect=noopvast-3.0\n```",
+		"contentType": "text/xml",
+		"content": "<VAST version=\"3.0\"></VAST>"
+	},
+	{
+		"title": "noopmp3-0.1s",
+		"description": "**Example**\n```\n||example.org^$media,redirect=noopmp3-0.1s\n```",
+		"aliases": [
+			"blank-mp3"
+		],
+		"comment": "From: https://ubuntuforums.org/showthread.php?t=1911430&p=11624471#post11624471 ffmpeg -ar 48000 -t 0.1 -f s16le -acodec pcm_s16le -ac 2 -i /dev/zero -acodec libmp3lame -aq 4 output.mp3 But with 0.1 (second) instead of 60.\n",
+		"contentType": "audio/mp3;base64",
+		"content": "SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU2LjQwLjEwMQAAAAAAAAAAAAAA//tUAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAASW5mbwAAAA8AAAAGAAADAABgYGBgYGBgYGBgYGBgYGBggICAgICA gICAgICAgICAgICgoKCgoKCgoKCgoKCgoKCgwMDAwMDAwMDAwMDAwMDAwMDg4ODg4ODg4ODg4ODg4ODg 4P////////////////////8AAAAATGF2YzU2LjYwAAAAAAAAAAAAAAAAJAAAAAAAAAAAAwDNZKlY//sU ZAAP8AAAaQAAAAgAAA0gAAABAAABpAAAACAAADSAAAAETEFNRTMuOTkuNVVVVVVVVVVVVVVVVVVVVVVV VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//sUZB4P8AAAaQAAAAgAAA0gAAABAAABpAAA ACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV VVVVVVVVVVVV//sUZDwP8AAAaQAAAAgAAA0gAAABAAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVV VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//sUZFoP8AAAaQAAAAgA AA0gAAABAAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV VVVVVVVVVVVVVVVVVVVVVVVVVVVV//sUZHgP8AAAaQAAAAgAAA0gAAABAAABpAAAACAAADSAAAAEVVVV VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//sU ZJYP8AAAaQAAAAgAAA0gAAABAAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\n"
+	},
+	{
+		"title": "noopmp4-1s",
+		"description": "**Example**\n```\n||example.org^$media,redirect=noopmp4-1s\n```",
+		"aliases": [
+			"blank-mp4"
+		],
+		"comment": "From https://github.com/kud/blank-video\n",
+		"contentType": "video/mp4;base64",
+		"content": "AAAAHGZ0eXBNNFYgAAACAGlzb21pc28yYXZjMQAAAAhmcmVlAAAGF21kYXTeBAAAbGliZmFhYyAxLjI4 AABCAJMgBDIARwAAArEGBf//rdxF6b3m2Ui3lizYINkj7u94MjY0IC0gY29yZSAxNDIgcjIgOTU2Yzhk OCAtIEguMjY0L01QRUctNCBBVkMgY29kZWMgLSBDb3B5bGVmdCAyMDAzLTIwMTQgLSBodHRwOi8vd3d3 LnZpZGVvbGFuLm9yZy94MjY0Lmh0bWwgLSBvcHRpb25zOiBjYWJhYz0wIHJlZj0zIGRlYmxvY2s9MTow OjAgYW5hbHlzZT0weDE6MHgxMTEgbWU9aGV4IHN1Ym1lPTcgcHN5PTEgcHN5X3JkPTEuMDA6MC4wMCBt aXhlZF9yZWY9MSBtZV9yYW5nZT0xNiBjaHJvbWFfbWU9MSB0cmVsbGlzPTEgOHg4ZGN0PTAgY3FtPTAg ZGVhZHpvbmU9MjEsMTEgZmFzdF9wc2tpcD0xIGNocm9tYV9xcF9vZmZzZXQ9LTIgdGhyZWFkcz02IGxv b2thaGVhZF90aHJlYWRzPTEgc2xpY2VkX3RocmVhZHM9MCBucj0wIGRlY2ltYXRlPTEgaW50ZXJsYWNl ZD0wIGJsdXJheV9jb21wYXQ9MCBjb25zdHJhaW5lZF9pbnRyYT0wIGJmcmFtZXM9MCB3ZWlnaHRwPTAg a2V5aW50PTI1MCBrZXlpbnRfbWluPTI1IHNjZW5lY3V0PTQwIGludHJhX3JlZnJlc2g9MCByY19sb29r YWhlYWQ9NDAgcmM9Y3JmIG1idHJlZT0xIGNyZj0yMy4wIHFjb21wPTAuNjAgcXBtaW49MCBxcG1heD02 OSBxcHN0ZXA9NCB2YnZfbWF4cmF0ZT03NjggdmJ2X2J1ZnNpemU9MzAwMCBjcmZfbWF4PTAuMCBuYWxf aHJkPW5vbmUgZmlsbGVyPTAgaXBfcmF0aW89MS40MCBhcT0xOjEuMDAAgAAAAFZliIQL8mKAAKvMnJyc nJycnJycnXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXiEASZACGQAjgCEASZACGQAjgAAAAAdBmjgX4GSAIQBJkAIZACOAAAAAB0GaVAX4 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 xAAAAAAALWhkbHIAAAAAAAAAAHNvdW4AAAAAAAAAAAAAAABTb3VuZEhhbmRsZXIAAAADi21pbmYAAAAQ c21oZAAAAAAAAAAAAAAAJGRpbmYAAAAcZHJlZgAAAAAAAAABAAAADHVybCAAAAABAAADT3N0YmwAAABn c3RzZAAAAAAAAAABAAAAV21wNGEAAAAAAAAAAQAAAAAAAAAAAAIAEAAAAAC7gAAAAAAAM2VzZHMAAAAA A4CAgCIAAgAEgICAFEAVBbjYAAu4AAAADcoFgICAAhGQBoCAgAECAAAAIHN0dHMAAAAAAAAAAgAAADIA AAQAAAAAAQAAAkAAAAFUc3RzYwAAAAAAAAAbAAAAAQAAAAEAAAABAAAAAgAAAAIAAAABAAAAAwAAAAEA AAABAAAABAAAAAIAAAABAAAABgAAAAEAAAABAAAABwAAAAIAAAABAAAACAAAAAEAAAABAAAACQAAAAIA AAABAAAACgAAAAEAAAABAAAACwAAAAIAAAABAAAADQAAAAEAAAABAAAADgAAAAIAAAABAAAADwAAAAEA AAABAAAAEAAAAAIAAAABAAAAEQAAAAEAAAABAAAAEgAAAAIAAAABAAAAFAAAAAEAAAABAAAAFQAAAAIA AAABAAAAFgAAAAEAAAABAAAAFwAAAAIAAAABAAAAGAAAAAEAAAABAAAAGQAAAAIAAAABAAAAGgAAAAEA AAABAAAAGwAAAAIAAAABAAAAHQAAAAEAAAABAAAAHgAAAAIAAAABAAAAHwAAAAQAAAABAAAA4HN0c3oA AAAAAAAAAAAAADMAAAAaAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkA AAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkA AAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkA AAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAAAJAAAACQAAAAkAAACMc3RjbwAAAAAAAAAfAAAALAAAA1UA AANyAAADhgAAA6IAAAO+AAAD0QAAA+0AAAQAAAAEHAAABC8AAARLAAAEZwAABHoAAASWAAAEqQAABMUA AATYAAAE9AAABRAAAAUjAAAFPwAABVIAAAVuAAAFgQAABZ0AAAWwAAAFzAAABegAAAX7AAAGFwAAAGJ1 ZHRhAAAAWm1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAG1kaXJhcHBsAAAAAAAAAAAAAAAALWlsc3QAAAAl qXRvbwAAAB1kYXRhAAAAAQAAAABMYXZmNTUuMzMuMTAw\n"
+	},
+	{
+		"title": "google-analytics-ga",
+		"comment": "Mocks old Google Analytics API.",
+		"aliases": [
+			"ubo-google-analytics_ga.js",
+			"google-analytics_ga.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction GoogleAnalyticsGa(source) {\n    // Gaq constructor\n    function Gaq() {}\n\n    Gaq.prototype.Na = noop;\n    Gaq.prototype.O = noop;\n    Gaq.prototype.Sa = noop;\n    Gaq.prototype.Ta = noop;\n    Gaq.prototype.Va = noop;\n    Gaq.prototype._createAsyncTracker = noop;\n    Gaq.prototype._getAsyncTracker = noop;\n    Gaq.prototype._getPlugin = noop;\n\n    Gaq.prototype.push = function (data) {\n      if (typeof data === 'function') {\n        data();\n        return;\n      }\n\n      if (Array.isArray(data) === false) {\n        return;\n      } // https://developers.google.com/analytics/devguides/collection/gajs/methods/gaJSApiDomainDirectory#_gat.GA_Tracker_._link\n\n\n      if (data[0] === '_link' && typeof data[1] === 'string') {\n        window.location.assign(data[1]);\n      } // https://github.com/gorhill/uBlock/issues/2162\n\n\n      if (data[0] === '_set' && data[1] === 'hitCallback' && typeof data[2] === 'function') {\n        data[2]();\n      }\n    };\n\n    var gaq = new Gaq();\n    var asyncTrackers = window._gaq || [];\n\n    if (Array.isArray(asyncTrackers)) {\n      while (asyncTrackers[0]) {\n        gaq.push(asyncTrackers.shift());\n      }\n    } // eslint-disable-next-line no-multi-assign\n\n\n    window._gaq = gaq.qf = gaq; // Gat constructor\n\n    function Gat() {} // Mock tracker api\n\n\n    var api = ['_addIgnoredOrganic', '_addIgnoredRef', '_addItem', '_addOrganic', '_addTrans', '_clearIgnoredOrganic', '_clearIgnoredRef', '_clearOrganic', '_cookiePathCopy', '_deleteCustomVar', '_getName', '_setAccount', '_getAccount', '_getClientInfo', '_getDetectFlash', '_getDetectTitle', '_getLinkerUrl', '_getLocalGifPath', '_getServiceMode', '_getVersion', '_getVisitorCustomVar', '_initData', '_link', '_linkByPost', '_setAllowAnchor', '_setAllowHash', '_setAllowLinker', '_setCampContentKey', '_setCampMediumKey', '_setCampNameKey', '_setCampNOKey', '_setCampSourceKey', '_setCampTermKey', '_setCampaignCookieTimeout', '_setCampaignTrack', '_setClientInfo', '_setCookiePath', '_setCookiePersistence', '_setCookieTimeout', '_setCustomVar', '_setDetectFlash', '_setDetectTitle', '_setDomainName', '_setLocalGifPath', '_setLocalRemoteServerMode', '_setLocalServerMode', '_setReferrerOverride', '_setRemoteServerMode', '_setSampleRate', '_setSessionTimeout', '_setSiteSpeedSampleRate', '_setSessionCookieTimeout', '_setVar', '_setVisitorCookieTimeout', '_trackEvent', '_trackPageLoadTime', '_trackPageview', '_trackSocial', '_trackTiming', '_trackTrans', '_visitCode'];\n    var tracker = api.reduce(function (res, funcName) {\n      res[funcName] = noop;\n      return res;\n    }, {});\n\n    tracker._getLinkerUrl = function (a) {\n      return a;\n    };\n\n    Gat.prototype._anonymizeIP = noop;\n    Gat.prototype._createTracker = noop;\n    Gat.prototype._forceSSL = noop;\n    Gat.prototype._getPlugin = noop;\n\n    Gat.prototype._getTracker = function () {\n      return tracker;\n    };\n\n    Gat.prototype._getTrackerByName = function () {\n      return tracker;\n    };\n\n    Gat.prototype._getTrackers = noop;\n    Gat.prototype.aa = noop;\n    Gat.prototype.ab = noop;\n    Gat.prototype.hb = noop;\n    Gat.prototype.la = noop;\n    Gat.prototype.oa = noop;\n    Gat.prototype.pa = noop;\n    Gat.prototype.u = noop;\n    var gat = new Gat();\n    window._gat = gat;\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  }\nfunction noop() {};\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        GoogleAnalyticsGa.apply(this, updatedArgs);\n    \n})({\"name\":\"google-analytics-ga\"});"
+	},
+	{
+		"title": "google-analytics",
+		"comment": "Mocks Google Analytics API.",
+		"aliases": [
+			"ubo-google-analytics_analytics.js",
+			"google-analytics_analytics.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction GoogleAnalytics(source) {\n    // eslint-disable-next-line func-names\n    var Tracker = function Tracker() {}; // constructor\n\n\n    var proto = Tracker.prototype;\n    proto.get = noop;\n    proto.set = noop;\n    proto.send = noop;\n    var googleAnalyticsName = window.GoogleAnalyticsObject || 'ga';\n\n    function ga() {\n      var len = arguments.length;\n\n      if (len === 0) {\n        return;\n      } // eslint-disable-next-line prefer-rest-params\n\n\n      var lastArg = arguments[len - 1];\n\n      if (typeof lastArg !== 'object' || lastArg === null || typeof lastArg.hitCallback !== 'function') {\n        return;\n      }\n\n      try {\n        lastArg.hitCallback(); // eslint-disable-next-line no-empty\n      } catch (ex) {}\n    }\n\n    ga.create = function () {\n      return new Tracker();\n    };\n\n    ga.getByName = noopNull;\n\n    ga.getAll = function () {\n      return [];\n    };\n\n    ga.remove = noop;\n    ga.loaded = true;\n    window[googleAnalyticsName] = ga;\n    var _window = window,\n        dataLayer = _window.dataLayer;\n\n    if (dataLayer instanceof Object && dataLayer.hide instanceof Object && typeof dataLayer.hide.end === 'function') {\n      dataLayer.hide.end();\n    }\n\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  }\nfunction noop() {}\nfunction noopNull() {\n    return null;\n  };\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        GoogleAnalytics.apply(this, updatedArgs);\n    \n})({\"name\":\"google-analytics\"});"
+	},
+	{
+		"title": "googlesyndication-adsbygoogle",
+		"comment": "Mocks Google AdSense API.",
+		"aliases": [
+			"ubo-googlesyndication_adsbygoogle.js",
+			"googlesyndication_adsbygoogle.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction GoogleSyndicationAdsByGoogle(source) {\n    window.adsbygoogle = window.adsbygoogle || {\n      length: 0,\n      loaded: true,\n      push: function push() {\n        this.length += 1;\n      }\n    };\n    var adElems = document.querySelectorAll('.adsbygoogle');\n    var css = 'height:1px!important;max-height:1px!important;max-width:1px!important;width:1px!important;';\n    var executed = false;\n\n    for (var i = 0; i < adElems.length; i += 1) {\n      var frame = document.createElement('iframe');\n      frame.id = \"aswift_\".concat(i + 1);\n      frame.style = css;\n      var childFrame = document.createElement('iframe');\n      childFrame.id = \"google_ads_frame\".concat(i);\n      frame.appendChild(childFrame);\n      document.body.appendChild(frame);\n      executed = true;\n    }\n\n    if (executed) {\n      hit(source);\n    }\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  };\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        GoogleSyndicationAdsByGoogle.apply(this, updatedArgs);\n    \n})({\"name\":\"googlesyndication-adsbygoogle\"});"
+	},
+	{
+		"title": "googletagmanager-gtm",
+		"comment": "Mocks Google Tag Manager API.",
+		"aliases": [
+			"ubo-googletagmanager_gtm.js",
+			"googletagmanager_gtm.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction GoogleTagManagerGtm(source) {\n    window.ga = window.ga || noop;\n    var _window = window,\n        dataLayer = _window.dataLayer;\n\n    if (dataLayer instanceof Object === false) {\n      return;\n    }\n\n    if (dataLayer.hide instanceof Object && typeof dataLayer.hide.end === 'function') {\n      dataLayer.hide.end();\n    }\n\n    if (typeof dataLayer.push === 'function') {\n      dataLayer.push = function (data) {\n        if (data instanceof Object && typeof data.eventCallback === 'function') {\n          setTimeout(data.eventCallback, 1);\n        }\n      };\n    }\n\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  }\nfunction noop() {};\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        GoogleTagManagerGtm.apply(this, updatedArgs);\n    \n})({\"name\":\"googletagmanager-gtm\"});"
+	},
+	{
+		"title": "googletagservices-gpt",
+		"comment": "Mocks Google Publisher Tag API.",
+		"aliases": [
+			"ubo-googletagservices_gpt.js",
+			"googletagservices_gpt.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction GoogleTagServicesGpt(source) {\n    var companionAdsService = {\n      addEventListener: noopThis,\n      enableSyncLoading: noop,\n      setRefreshUnfilledSlots: noop\n    };\n    var contentService = {\n      addEventListener: noopThis,\n      setContent: noop\n    };\n\n    function PassbackSlot() {} // constructor\n\n\n    PassbackSlot.prototype.display = noop;\n    PassbackSlot.prototype.get = noopNull;\n    PassbackSlot.prototype.set = noopThis;\n    PassbackSlot.prototype.setClickUrl = noopThis;\n    PassbackSlot.prototype.setTagForChildDirectedTreatment = noopThis;\n    PassbackSlot.prototype.setTargeting = noopThis;\n    PassbackSlot.prototype.updateTargetingFromMap = noopThis;\n\n    function SizeMappingBuilder() {} // constructor\n\n\n    SizeMappingBuilder.prototype.addSize = noopThis;\n    SizeMappingBuilder.prototype.build = noopNull;\n\n    function Slot() {} // constructor\n\n\n    Slot.prototype.addService = noopThis;\n    Slot.prototype.clearCategoryExclusions = noopThis;\n    Slot.prototype.clearTargeting = noopThis;\n    Slot.prototype.defineSizeMapping = noopThis;\n    Slot.prototype.get = noopNull;\n    Slot.prototype.getAdUnitPath = noopArray;\n    Slot.prototype.getAttributeKeys = noopArray;\n    Slot.prototype.getCategoryExclusions = noopArray;\n    Slot.prototype.getDomId = noopStr;\n    Slot.prototype.getSlotElementId = noopStr;\n    Slot.prototype.getSlotId = noopThis;\n    Slot.prototype.getTargeting = noopArray;\n    Slot.prototype.getTargetingKeys = noopArray;\n    Slot.prototype.set = noopThis;\n    Slot.prototype.setCategoryExclusion = noopThis;\n    Slot.prototype.setClickUrl = noopThis;\n    Slot.prototype.setCollapseEmptyDiv = noopThis;\n    Slot.prototype.setTargeting = noopThis;\n    var pubAdsService = {\n      addEventListener: noopThis,\n      clear: noop,\n      clearCategoryExclusions: noopThis,\n      clearTagForChildDirectedTreatment: noopThis,\n      clearTargeting: noopThis,\n      collapseEmptyDivs: noop,\n      defineOutOfPagePassback: function defineOutOfPagePassback() {\n        return new PassbackSlot();\n      },\n      definePassback: function definePassback() {\n        return new PassbackSlot();\n      },\n      disableInitialLoad: noop,\n      display: noop,\n      enableAsyncRendering: noop,\n      enableSingleRequest: noop,\n      enableSyncRendering: noop,\n      enableVideoAds: noop,\n      get: noopNull,\n      getAttributeKeys: noopArray,\n      getTargeting: noop,\n      getTargetingKeys: noopArray,\n      getSlots: noopArray,\n      refresh: noop,\n      set: noopThis,\n      setCategoryExclusion: noopThis,\n      setCentering: noop,\n      setCookieOptions: noopThis,\n      setForceSafeFrame: noopThis,\n      setLocation: noopThis,\n      setPublisherProvidedId: noopThis,\n      setRequestNonPersonalizedAds: noopThis,\n      setSafeFrameConfig: noopThis,\n      setTagForChildDirectedTreatment: noopThis,\n      setTargeting: noopThis,\n      setVideoContent: noopThis,\n      updateCorrelator: noop\n    };\n    var _window = window,\n        _window$googletag = _window.googletag,\n        googletag = _window$googletag === void 0 ? {} : _window$googletag;\n    var _googletag$cmd = googletag.cmd,\n        cmd = _googletag$cmd === void 0 ? [] : _googletag$cmd;\n    googletag.apiReady = true;\n    googletag.cmd = [];\n\n    googletag.cmd.push = function (a) {\n      try {\n        a(); // eslint-disable-next-line no-empty\n      } catch (ex) {}\n\n      return 1;\n    };\n\n    googletag.companionAds = function () {\n      return companionAdsService;\n    };\n\n    googletag.content = function () {\n      return contentService;\n    };\n\n    googletag.defineOutOfPageSlot = function () {\n      return new Slot();\n    };\n\n    googletag.defineSlot = function () {\n      return new Slot();\n    };\n\n    googletag.destroySlots = noop;\n    googletag.disablePublisherConsole = noop;\n    googletag.display = noop;\n    googletag.enableServices = noop;\n    googletag.getVersion = noopStr;\n\n    googletag.pubads = function () {\n      return pubAdsService;\n    };\n\n    googletag.pubadsReady = true;\n    googletag.setAdIframeTitle = noop;\n\n    googletag.sizeMapping = function () {\n      return new SizeMappingBuilder();\n    };\n\n    window.googletag = googletag;\n\n    while (cmd.length !== 0) {\n      googletag.cmd.push(cmd.shift());\n    }\n\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  }\nfunction noop() {}\nfunction noopThis() {\n    return this;\n  }\nfunction noopNull() {\n    return null;\n  }\nfunction noopArray() {\n    return [];\n  }\nfunction noopStr() {\n    return '';\n  };\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        GoogleTagServicesGpt.apply(this, updatedArgs);\n    \n})({\"name\":\"googletagservices-gpt\"});"
+	},
+	{
+		"title": "metrika-yandex-tag",
+		"comment": "Mocks Yandex Metrika API.",
+		"aliases": [],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction metrikaYandexTag(source) {\n    var asyncCallbackFromOptions = function asyncCallbackFromOptions(param) {\n      var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};\n      var callback = options.callback;\n      var ctx = options.ctx;\n\n      if (typeof callback === 'function') {\n        callback = ctx !== undefined ? callback.bind(ctx) : callback;\n        setTimeout(function () {\n          return callback();\n        });\n      }\n    };\n\n    var init = noop;\n    /**\n     * https://yandex.ru/support/metrica/objects/addfileextension.html\n     */\n\n    var addFileExtension = noop;\n    /**\n     * https://yandex.ru/support/metrica/objects/extlink.html\n     */\n\n    var extLink = asyncCallbackFromOptions;\n    /**\n     * https://yandex.ru/support/metrica/objects/file.html\n     */\n\n    var file = asyncCallbackFromOptions;\n    /**\n     * https://yandex.ru/support/metrica/objects/get-client-id.html\n     * @param {Function} cb\n     */\n\n    var getClientID = function getClientID(cb) {\n      setTimeout(cb(null));\n    };\n    /**\n     * https://yandex.ru/support/metrica/objects/hit.html\n     */\n\n\n    var hitFunc = asyncCallbackFromOptions;\n    /**\n     * https://yandex.ru/support/metrica/objects/notbounce.html\n     */\n\n    var notBounce = asyncCallbackFromOptions;\n    /**\n     * https://yandex.ru/support/metrica/objects/params-method.html\n     */\n\n    var params = noop;\n    /**\n     * https://yandex.ru/support/metrica/objects/reachgoal.html\n     * @param {string} target\n     * @param {Object} params\n     * @param {Function} callback\n     * @param {any} ctx\n     */\n\n    var reachGoal = function reachGoal(target, params, callback, ctx) {\n      asyncCallbackFromOptions(null, {\n        callback: callback,\n        ctx: ctx\n      });\n    };\n    /**\n     * https://yandex.ru/support/metrica/objects/set-user-id.html\n     */\n\n\n    var setUserID = noop;\n    /**\n     * https://yandex.ru/support/metrica/objects/user-params.html\n     */\n\n    var userParams = noop;\n    var api = {\n      init: init,\n      addFileExtension: addFileExtension,\n      extLink: extLink,\n      file: file,\n      getClientID: getClientID,\n      hit: hitFunc,\n      notBounce: notBounce,\n      params: params,\n      reachGoal: reachGoal,\n      setUserID: setUserID,\n      userParams: userParams\n    };\n\n    function ym(id, funcName) {\n      for (var _len = arguments.length, args = new Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {\n        args[_key - 2] = arguments[_key];\n      }\n\n      return api[funcName] && api[funcName].apply(api, args);\n    }\n\n    window.ym = ym;\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  }\nfunction noop() {};\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        metrikaYandexTag.apply(this, updatedArgs);\n    \n})({\"name\":\"metrika-yandex-tag\"});"
+	},
+	{
+		"title": "metrika-yandex-watch",
+		"comment": "Mocks the old Yandex Metrika API.",
+		"aliases": [],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction metrikaYandexWatch(source) {\n    var cbName = 'yandex_metrika_callbacks';\n    /**\n     * Gets callback and its context from options and call it in async way\n     * @param {Object} options Yandex Metrika API options\n     */\n\n    var asyncCallbackFromOptions = function asyncCallbackFromOptions() {\n      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n      var callback = options.callback;\n      var ctx = options.ctx;\n\n      if (typeof callback === 'function') {\n        callback = ctx !== undefined ? callback.bind(ctx) : callback;\n        setTimeout(function () {\n          return callback();\n        });\n      }\n    };\n\n    function Metrika() {} // constructor\n    // Methods without options\n\n\n    Metrika.prototype.addFileExtension = noop;\n    Metrika.prototype.getClientID = noop;\n    Metrika.prototype.setUserID = noop;\n    Metrika.prototype.userParams = noop; // Methods with options\n    // The order of arguments should be kept in according to API\n\n    Metrika.prototype.extLink = function (url, options) {\n      asyncCallbackFromOptions(options);\n    };\n\n    Metrika.prototype.file = function (url, options) {\n      asyncCallbackFromOptions(options);\n    };\n\n    Metrika.prototype.hit = function (url, options) {\n      asyncCallbackFromOptions(options);\n    };\n\n    Metrika.prototype.reachGoal = function (target, params, cb, ctx) {\n      asyncCallbackFromOptions({\n        callback: cb,\n        ctx: ctx\n      });\n    };\n\n    Metrika.prototype.notBounce = asyncCallbackFromOptions;\n\n    if (window.Ya) {\n      window.Ya.Metrika = Metrika;\n    } else {\n      window.Ya = {\n        Metrika: Metrika\n      };\n    }\n\n    if (window[cbName] && Array.isArray(window[cbName])) {\n      window[cbName].forEach(function (func) {\n        if (typeof func === 'function') {\n          func();\n        }\n      });\n    }\n\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  }\nfunction noop() {};\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        metrikaYandexWatch.apply(this, updatedArgs);\n    \n})({\"name\":\"metrika-yandex-watch\"});"
+	},
+	{
+		"title": "noeval",
+		"comment": "Redirects request to the source which sets static properties to PopAds and popns objects.",
+		"aliases": [
+			"noeval.js",
+			"silent-noeval.js",
+			"ubo-noeval.js",
+			"ubo-silent-noeval.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction noeval(source) {\n    window.eval = function evalWrapper(s) {\n      hit(source, \"AdLock has prevented eval:\\n\".concat(s));\n    }.bind();\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  };\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        noeval.apply(this, updatedArgs);\n    \n})({\"name\":\"noeval\"});"
+	},
+	{
+		"title": "prevent-fab-3.2.0",
+		"comment": "Redirects fuckadblock script to the source js file.",
+		"aliases": [
+			"fuckadblock.js-3.2.0",
+			"ubo-fuckadblock.js-3.2.0"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction preventFab(source) {\n    hit(source);\n\n    var Fab = function Fab() {};\n\n    Fab.prototype.check = noop;\n    Fab.prototype.clearEvent = noop;\n    Fab.prototype.emitEvent = noop;\n\n    Fab.prototype.on = function (a, b) {\n      if (!a) {\n        b();\n      }\n\n      return this;\n    };\n\n    Fab.prototype.onDetected = function () {\n      return this;\n    };\n\n    Fab.prototype.onNotDetected = function (a) {\n      a();\n      return this;\n    };\n\n    Fab.prototype.setOption = noop;\n    window.FuckAdBlock = window.BlockAdBlock = Fab; //\n\n    window.fuckAdBlock = window.blockAdBlock = new Fab();\n  }\nfunction noop() {}\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  };\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        preventFab.apply(this, updatedArgs);\n    \n})({\"name\":\"prevent-fab-3.2.0\"});"
+	},
+	{
+		"title": "prevent-popads-net",
+		"comment": "Redirects request to the source which sets static properties to PopAds and popns objects.",
+		"aliases": [
+			"popads.net.js",
+			"ubo-popads.net.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction preventPopadsNet(source) {\n    var rid = randomId();\n\n    var throwError = function throwError() {\n      throw new ReferenceError(rid);\n    };\n\n    delete window.PopAds;\n    delete window.popns;\n    Object.defineProperties(window, {\n      PopAds: {\n        set: throwError\n      },\n      popns: {\n        set: throwError\n      }\n    });\n    window.onerror = createOnErrorHandler(rid).bind();\n    hit(source);\n  }\nfunction createOnErrorHandler(rid) {\n    // eslint-disable-next-line consistent-return\n    var nativeOnError = window.onerror;\n    return function onError(error) {\n      if (typeof error === 'string' && error.indexOf(rid) !== -1) {\n        return true;\n      }\n\n      if (nativeOnError instanceof Function) {\n        for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {\n          args[_key - 1] = arguments[_key];\n        }\n\n        return nativeOnError.apply(this, [error].concat(args));\n      }\n\n      return false;\n    };\n  }\nfunction randomId() {\n    return Math.random().toString(36).substr(2, 9);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  };\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        preventPopadsNet.apply(this, updatedArgs);\n    \n})({\"name\":\"prevent-popads-net\"});"
+	},
+	{
+		"title": "scorecardresearch-beacon",
+		"comment": "Mocks Scorecard Research API.",
+		"aliases": [
+			"ubo-scorecardresearch_beacon.js",
+			"scorecardresearch_beacon.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction ScoreCardResearchBeacon(source) {\n    window.COMSCORE = {\n      purge: function purge() {\n        // eslint-disable-next-line no-underscore-dangle\n        window._comscore = [];\n      },\n      beacon: function beacon() {}\n    };\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  };\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        ScoreCardResearchBeacon.apply(this, updatedArgs);\n    \n})({\"name\":\"scorecardresearch-beacon\"});"
+	},
+	{
+		"title": "set-popads-dummy",
+		"comment": "Redirects request to the source which sets static properties to PopAds and popns objects.",
+		"aliases": [
+			"popads-dummy.js",
+			"ubo-popads-dummy.js"
+		],
+		"contentType": "application/javascript",
+		"content": "(function(source, args){\nfunction setPopadsDummy(source) {\n    delete window.PopAds;\n    delete window.popns;\n    Object.defineProperties(window, {\n      PopAds: {\n        get: function get() {\n          hit(source);\n          return {};\n        }\n      },\n      popns: {\n        get: function get() {\n          hit(source);\n          return {};\n        }\n      }\n    });\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (message) {\n        log(\"\".concat(prefix, \" message:\\n\").concat(message));\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debugScriptlets === 'function') {\n      window.__debugScriptlets(source);\n    }\n  };\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        setPopadsDummy.apply(this, updatedArgs);\n    \n})({\"name\":\"set-popads-dummy\"});"
+	}
+]

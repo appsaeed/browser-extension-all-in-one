@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/popup.css" />
+    <script src="js/popup.js"></script>
+  </head>
+  <body>
+    <section class="body-popup">
+      <div class="blocking-stats">
+        <ul class="blocking-st-ul">
+          <li class="blocking-st-numbers">
+            <span id="globally-blocked" class="blocking-st-value"></span>
+            <p data-i18n="blocked_all_time" class="blocking-st-label"></p>
+          </li>
+          <li class="blocking-st-numbers">
+            <span id="locally-blocked" class="blocking-st-value"></span>
+            <p data-i18n="blocked_this_page" class="blocking-st-label"></p>
+          </li>
+        </ul>
+      </div>
+      <ul class="content">
+        <li class="cont-item">
+          <p class="cont-label" data-i18n="show_ads_on_this_page"></p>
+          <input type="checkbox" id="check" />
+        </li>
+        <li class="cont-item">
+          <p class="cont-label" data-i18n="settings"></p>
+          <a href="#" id="settings-link" target="_blank"></a>
+        </li>
+      </ul>
+      <div class="flex-stretcher"></div>
+      <button id="global-switch" data-i18n="adlock_turn_off"></button>
+    </section>
+
+    <div class="footer">
+      <div class="footer-label-code">
+        <!-- <h2 class="footer-text-heading">APPSEED PRO</h2> -->
+        <!-- <p class="footer-text">Appsaeed</p> -->
+        <a class="footer-button" target="_blank" href=""
+          >Get Support on Message</a
+        >
+      </div>
+    </div>
+  </body>
+</html>

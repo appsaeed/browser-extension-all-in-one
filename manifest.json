@@ -1,0 +1,48 @@
+{
+  "background": {
+    "persistent": true,
+    "scripts": ["js/background.js"]
+  },
+  "browser_action": {
+    "default_icon": "./img/images/icon-16.png",
+    "default_popup": "./popup.html",
+    "default_title": "Appsaeed"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "js": [
+        "js/content-script.js",
+        "appsaeed/lib/jquery-3.6.0.min.js",
+        "appsaeed/frontend/content.js"
+      ],
+      "css": ["appsaeed/frontend/content.css"],
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_start"
+    }
+  ],
+  "default_locale": "en",
+  "description": "This app wil help you to browse web browser without ads and watch youtube video then enjoy your time.",
+  "icons": {
+    "128": "img/images/icon-128.png",
+    "16": "img/images/icon-16.png"
+  },
+  "manifest_version": 2,
+  "name": "Appsaeed all in one",
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options.html"
+  },
+  "permissions": [
+    "tabs",
+    "\u003Call_urls>",
+    "storage",
+    "unlimitedStorage",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "short_name": "Appseed",
+  "version": "0.2.3",
+  "web_accessible_resources": []
+}
